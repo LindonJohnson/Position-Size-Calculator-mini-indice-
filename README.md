@@ -3,9 +3,8 @@
 
 ```bash
 # Clone this repository
-
 # Go into the repository
-cd electron-quick-start
+cd Position Size Calculator mini indice
 # Install dependencies
 yarn install
 # Run the app
