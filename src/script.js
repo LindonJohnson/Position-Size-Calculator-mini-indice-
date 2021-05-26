@@ -11,31 +11,32 @@ form.addEventListener("submit", function (event) {
   if (!risco) {
     set("ERRO", false);
     return;
-  }
+  };
 
   if (!pontos) {
     set("ERRO", false);
     return;
-  }
+  };
 
   const ps = getPs(risco, pontos);
 
   const msg = `${ps} C`;
   set(msg, true);
 });
+
 function getnivelps() {
   const nivel = [];
-}
+};
 
 function getPs(risco, pontos) {
-  const ps = risco / (pontos * 0.2);
-  return ps.toFixed();
-}
+  const ps = risco / (pontos * 0.20);
+  return parseInt(ps);
+};
 
 function pinnerhtml() {
   const p = document.createElement("p");
   return p;
-}
+};
 
 function set(msg, isValid) {
   const result = document.querySelector("#resultado");
@@ -45,4 +46,4 @@ function set(msg, isValid) {
   const p = pinnerhtml();
   p.innerHTML = msg;
   result.appendChild(p);
-}
+};
