@@ -1,4 +1,4 @@
-# electron-start-template
+# Position Size Calculator mini indice
 ## To Use
 
 ```bash
