@@ -1,0 +1,26 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "A minimal Electron template",
+  "main": "main.js",
+  "scripts": {
+    "start": "set ELECTRON_DEVELOP=true && electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "<Lindon Johnson>",
+  "license": "",
+  "devDependencies": {
+    "electron": "^12.0.0",
+    "electron-builder": "^22.10.5",
+    "electron-reload": "^1.5.0"
+  },
+  "build": {
+    "appId": "com.exemple.app",
+    "productName": "CalculadoraPS",
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}
