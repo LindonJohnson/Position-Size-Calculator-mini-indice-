@@ -1,8 +1,9 @@
 {
   "name": "calculadoraps",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "CalculadoraPs",
   "main": "main.js",
+  "repository": "git@github.com:LindonJohnson/Position-Size-Calculator-mini-indice-.git",
   "scripts": {
     "start": "set ELECTRON_DEVELOP=true && electron .",
     "pack": "electron-builder --dir",
