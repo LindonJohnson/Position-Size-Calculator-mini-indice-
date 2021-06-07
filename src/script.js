@@ -47,3 +47,4 @@ function set(msg, isValid) {
   p.innerHTML = msg;
   result.appendChild(p);
 };
+
