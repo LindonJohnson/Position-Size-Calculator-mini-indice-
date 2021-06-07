@@ -71,6 +71,16 @@ body {
   border-radius: 10px;
 }
 
+.containerC {
+  color: #2f1160;
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
 form input {
   /* outline: dashed; */
   border: 2px solid var(--botoes);
