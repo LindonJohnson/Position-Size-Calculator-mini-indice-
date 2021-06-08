@@ -1,7 +1,13 @@
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 const path = require('path')
-require('update-electron-app')()
+//require('update-electron-app')()
+
+require('update-electron-app')({
+  repo: 'git@github.com:LindonJohnson/Position-Size-Calculator-mini-indice-.git',
+  updateInterval: '10 s',
+  logger: require('electron-log')
+})
 
 if (process.env.ELECTRON_DEVELOP) {
   require('electron-reload')(__dirname, {
